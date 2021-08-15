@@ -10,7 +10,7 @@ that implements best data visualization practices. {p_end}
 {title:Overview}
 
 {pstd}
-{cmd:ipaplots} changes the default scheme of Stata graphics. The choices of colors, markers, gridlines, and other aspects of the figure 
+{cmd:blogrotonda} changes the default scheme of Stata graphics. The choices of colors, markers, gridlines, and other aspects of the figure 
 follow best data visualization practices.
 
 {pstd}
@@ -31,5 +31,5 @@ Stata's default graphic scheme is {cmd:s2color}. To change back to the default:
 
 {title:Authorship}
 
-{pstd} {cmd:ipaplots} is written by Ronny M. Condor from La Rotonda Blog. {p_end}
+{pstd} {cmd:blogrotonda} is written by Ronny M. Condor from La Rotonda Blog. {p_end}
 
