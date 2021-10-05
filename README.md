@@ -7,7 +7,7 @@ github install La-Rotonda/blogrotonda
 
 set scheme blogrotonda, perm
 ```
-## Overview
+# Overview
 <img src="./graphs/scatter_plot.png" height="250"> <img src="./graphs/line_graph.png" height="250">
 <img src="./graphs/pie_chart.png" height="250"> <img src="./graphs/box_plot.png" height="250">
 <img src="./graphs/histogram.png" height="250"> <img src="./graphs/hbar.png" height="250">
