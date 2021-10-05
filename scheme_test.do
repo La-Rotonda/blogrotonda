@@ -56,7 +56,7 @@ graph export "${graphs}\histogram.png", as(png) name("Graph") replace
 graph hbar var1 - var5, ///
 		blabel(bar, format(%9.2f)) ylabel(0(100)1000) ///
 		title("Bar graph") ///
-		note("Elaboration: @BlogRotonda") name(graph5, replace)
+		note("Elaboration: @BlogRotonda")
 graph export "${graphs}\hbar.png", as(png) name("Graph") replace
 
 		
