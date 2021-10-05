@@ -1,4 +1,4 @@
 v 3
 d blogrotonda - graphics scheme
-d Ronny M. Condor
+d La Rotonda Blog
 p blogrotonda graph scheme
