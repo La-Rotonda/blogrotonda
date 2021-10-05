@@ -12,4 +12,4 @@ set scheme blogrotonda, perm
 <img src="./graphs/pie_chart.png" height="250"> <img src="./graphs/box_plot.png" height="250">
 <img src="./graphs/histogram.png" height="250"> <img src="./graphs/hbar.png" height="250">
 <img src="./graphs/density.png" height="250"> <img src="./graphs/range_graphs.png" height="250">
-<img src="./graphs/bygraphs.png" height="500">
+<img src="./graphs/bygraphs.png" height="503">
