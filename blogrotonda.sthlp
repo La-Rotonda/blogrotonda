@@ -31,5 +31,5 @@ Stata's default graphic scheme is {cmd:s2color}. To change back to the default:
 
 {title:Authorship}
 
-{pstd} {cmd:blogrotonda} is written by Ronny M. Condor from La Rotonda Blog. {p_end}
+{pstd} {cmd:blogrotonda} is written by Ismael Canales and Ronny M. Condor from La Rotonda Blog. {p_end}
 
