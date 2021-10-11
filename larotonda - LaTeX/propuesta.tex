@@ -1,0 +1,67 @@
+%====================================================================================
+% Preamble
+%------------------------------------------------------------------------------------
+
+\documentclass[10pt, aspectratio=169, compress]{beamer}
+
+% Beamer adjust
+	\usetheme[progressbar=frame title, numbering=fraction]{metropolis}
+	\useoutertheme[subsection=false]{miniframes}
+	\setbeamercolor{section in head/foot}{fg=white, bg=mDarkTeal}
+	\setbeamercolor{background canvas}{bg=white}
+	\setbeamerfont{section in head/foot}{series=\bfseries}
+	\setbeameroption{show notes}
+	\setbeamertemplate{section in toc}[sections numbered]
+	\setbeamertemplate{subsection in toc}[subsections numbered]
+	\setbeamertemplate{subsection in toc}
+		
+	%Colores del beamer
+		\setbeamercolor{section in head/foot}{bg=larotonda1}
+		\setbeamercolor{palette primary}{bg=larotonda1}
+		\setbeamercolor{progress bar}{fg=larotonda3,bg=larotonda4!50}
+
+% Essential Packages
+\input{packages/packs}
+%====================================================================================
+
+%====================================================================================
+% Body
+%------------------------------------------------------------------------------------
+% Title Page
+%-----------
+\title{Título de la presentación}
+\author{Autor(es)}
+\institute{\large La Rotonda Blog}
+\titlegraphic{\hfill\includegraphics[height=2cm]{fig/LOGO2.png}}
+\date{\today}
+
+\begin{document}
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
+
+%------------------------------------------------------------------------------------
+% Sections
+%---------
+
+%1) Ejempplo 1 ----------------------------------
+	\include{sections/sec_01}
+%2) Ejemplo 2  ----------------------------------
+	\include{sections/sec_02}
+%3) Referencia ----------------------------------
+	\include{sections/sec_03}
+
+%------------------------------------------------------------------------------------
+% End
+%----
+\miniframesoff
+\begin{frame}[plain, standout]
+		\begin{figure}
+		\centering
+		\includegraphics[width = 0.5\linewidth]{fig/larotonda.png}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------------------------------------------
+\end{document}		
+%====================================================================================

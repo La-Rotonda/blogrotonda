@@ -1,0 +1,81 @@
+% Apartado de letras
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+
+% Aparatdo matemático
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Apartado tipp de letra
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+
+% Aparatdo  de lista: cambiar la enumeraci�n
+\usepackage{enumitem}
+
+% Apartado tablas, figuras, y otros
+\usepackage{multirow,booktabs,setspace,caption,multicol}
+\captionsetup{skip=0pt}
+	% Apartado Tablas y Figuras en APA
+	\DeclareCaptionLabelSeparator*{spaced}{\\[1ex]}
+	\captionsetup[table]{name = Tabla, textfont=it,format=plain,justification=justified,
+		singlelinecheck=false,labelsep=spaced,skip=0pt}
+	\captionsetup[figure]{name = Figura, labelsep=period,labelfont=it,justification=justified,
+		singlelinecheck=false,font=doublespacing}
+	% Para hacer tablas APA m�s f�cil
+	\usepackage[flushleft]{threeparttable}
+
+% Apartado hyperres
+\usepackage{hyperref}
+
+% Apartado Tikz
+\usepackage{tikz}
+\usetikzlibrary{positioning,calc}
+
+% Apartado de colores
+\usepackage{xcolor}
+
+\definecolor{larotonda1}{RGB}{32, 25, 63} % COLOR PROPUESTP
+\definecolor{larotonda3}{RGB}{172, 60, 60} % COLOR PROPUESTP
+\definecolor{larotonda4}{RGB}{228, 124, 124} % COLOR PROPUESTP
+
+% Apartado de íconos
+\usepackage{fontawesome5}
+\definecolor{twit}{RGB}{29, 161, 242}
+
+%Creación de entornos matemáticas
+\newtheorem{defi}{Definición}[section]
+\newtheorem{lema}{Lema}[section]
+\newtheorem{teo}{Teorema}[section]
+\newtheorem{coro}{Corolario}[section]
+
+% Diversos
+\usefonttheme[onlymath]{serif}
+\usepackage{remreset}
+\usepackage{makecell}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{subfig}
+% \graphicspath{{./fig/}} es para definir una ruta es como esl cd de stata
+
+% Apartado justificación de textos
+\usepackage{ragged2e}
+\justifying
+\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm}
+
+% Apartado miniframe
+\makeatletter
+\let\beamer@writeslidentry@miniframeson=\beamer@writeslidentry
+\def\beamer@writeslidentry@miniframesoff{%
+	\expandafter\beamer@ifempty\expandafter{\beamer@framestartpage}{}% does not happen normally
+	{%else
+		% removed \addtocontents commands
+		\clearpage\beamer@notesactions%
+	}
+}
+\newcommand*{\miniframeson}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframeson}
+\newcommand*{\miniframesoff}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframesoff}
+\beamer@compresstrue
+\makeatother
