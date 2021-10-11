@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Título 1 de la sección}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Título 1 del subsección}{3}{0}{1}
+\beamer@subsubsectionintoc {1}{1}{1}{Título 1 del subsubsección}{3}{0}{1}
+\beamer@sectionintoc {2}{Título 2 de la sección}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Título 2 de la subsección}{6}{0}{2}
+\beamer@sectionintoc {3}{Referencias}{7}{0}{3}
